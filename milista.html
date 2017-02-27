@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi lista </title>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <style>
+        h1 {
+            color: #1abc9c;
+              }
+        .rem {
+            margin-left: 5px;
+            background-color: white;
+            color: red;
+            border: none;
+            cursor: pointer;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <h1>Mi lista </h1>
+        <input type="text" placeholder="Nuevo" />
+        <button id="add">Agregar </button>
+        <ol id="mylist"></ol>
+  <script>
+  $( document ).ready(function(){
+  $(function() {
+    $("#add").on("click", function() {
+        var val = $("input").val();
+        if(val !== '') {
+            var elem = $("<li></li>").text(val);
+            $(elem).append("<button class='rem'>X</button>");
+            $("#mylist").append(elem);
+            $("input").val("");
+            $(".rem").on("click", function() {
+                $(this).parent().remove();
+            });
+         }
+      });
+   });
+   };
+
+</script>
+  
+  </body>
+    
+</html>
