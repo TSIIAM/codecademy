@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+  <title>Calculadora Simple</title>  
+    
+    <style>
+    body{
+  background-color:cyan;
+  
+}
+
+li{
+  list-style-type:none;
+}
+
+section{
+  background-color:white;
+  box-shadow:2px 2px black;
+  margin:2px 2px;
+  paddding:5px 10px;
+
+}
+#calc{background-color:white;
+margin:5px 5px;
+}
+    
+            form label {
+            display: flex;
+        }
+        
+    
+    
+    
+    
+    </style>
+    
+    <script type="text/javascript" src="simplecalculadora.js>
+    </script>
+    
+  
+    
+
+    </head>
+    <body>
+    
+      <section>
+    
+    <div id="calc">
+    <h1>Simple Calculadora Javascript</h1>
+        <p>Los operadores disponibles son:</p>
+        <ul>
+            <li>Sumar con +</li>
+            <li>Restar con -</li>
+            <li>Multiplicar con *</li>
+            <li>Dividir con /</li>
+            <li>El Modulus con %</li>
+    
+        </ul>
+        
+        <form>
+        <label> Primer Numero</label>
+             <input type="number" name="num1" id="num1">
+            <label> Segundo Numero</label>
+          <input type="number" name="num2" id="num2">
+           <input type="button" value=" + "   id="suma"onclick='suma()'>
+              <input type="button" value=" - "   id="resta"onclick='resta()'>
+               <input type="button" value=" * "   id="multi"onclick='multi()'>
+             <input type="button" value=" / "   id="dividir"onclick='dividir()'>
+        <input type="reset" value="cancelar">
+        </form>
+        
+        
+        
+        
+<div  id="resultado"> resultado aqui</div>
+        
+        
+        </div>
+      </section>      
+      
+        
+        
+ </body>
+
+
+
+
+
+</html>
