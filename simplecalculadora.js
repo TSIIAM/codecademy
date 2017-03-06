@@ -25,7 +25,7 @@ dividirInput.addEventListener('click', dividir);
                     // mostrarlo en pantalla
         document.getElementById("resultado").innerHTML= resultado;
                   
-    }
+    };
                 function resta(){
                     
         
@@ -35,7 +35,7 @@ dividirInput.addEventListener('click', dividir);
           var resultado = " Tu resultado es: "+res;
         document.getElementById("resultado").innerHTML= resultado;
                     
-    }
+    };
        
                 function multi(){
                    
@@ -49,7 +49,7 @@ dividirInput.addEventListener('click', dividir);
                      
                     
                     
-    }
+    };
        
                 function dividir(){
                     
@@ -60,5 +60,5 @@ dividirInput.addEventListener('click', dividir);
           var resultado = " Tu resultado es: " + res;
         document.getElementById("resultado").innerHTML= resultado;
                
-    }
+    };
 
