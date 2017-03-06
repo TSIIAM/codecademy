@@ -11,7 +11,7 @@ multiInput.addEventListener('click', multi);
 var dividirInput = document.querySelector('#dividir');
 dividirInput.addEventListener('click', dividir);
 
-
+document.onreadystatechange = function (){
                 function suma(){
                     
         //obtener valores
@@ -61,3 +61,4 @@ dividirInput.addEventListener('click', dividir);
         document.getElementById("resultado").innerHTML= resultado;
                
     }
+};
