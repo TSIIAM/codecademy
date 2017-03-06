@@ -61,4 +61,4 @@ dividirInput.addEventListener('click', dividir);
         document.getElementById("resultado").innerHTML= resultado;
                
     }
-};
+
