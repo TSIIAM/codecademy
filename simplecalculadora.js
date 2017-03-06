@@ -11,7 +11,7 @@ multiInput.addEventListener('click', multi);
 var dividirInput = document.querySelector('#dividir');
 dividirInput.addEventListener('click', dividir);
 
-$( document ).ready(function(){
+
                 function suma(){
                     
         //obtener valores
