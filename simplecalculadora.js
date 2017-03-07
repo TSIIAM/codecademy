@@ -1,11 +1,10 @@
 
-window.onload=function(){
                 function suma(){
                     
         //obtener valores
                   //al presionar suma
-var sumInput = document.querySelector('#suma');
-sumInput.addEventListener('click', suma);
+
+
                   
         var x =  parseInt(document.getElementById("num1").value);
         var y =  parseInt(document.getElementById("num2").value);
@@ -19,8 +18,7 @@ sumInput.addEventListener('click', suma);
     };
                 function resta(){
                     
-                  var restaInput = document.querySelector('#resta');
-restaInput.addEventListener('click', resta);
+             
         
          var x =  parseInt(document.getElementById("num1").value);
         var y =  parseInt(document.getElementById("num2").value);
@@ -32,8 +30,7 @@ restaInput.addEventListener('click', resta);
        
                 function multi(){
                    
-        var multiInput = document.querySelector('#multi');
-multiInput.addEventListener('click', multi);
+ 
                     
            var x =  Number(document.getElementById("num1").value);
         var y =  Number(document.getElementById("num2").value);
@@ -46,8 +43,7 @@ multiInput.addEventListener('click', multi);
     };
        
                 function dividir(){
-                    var dividirInput = document.querySelector('#dividir');
-dividirInput.addEventListener('click', dividir);
+              
         
        var x =  Number(document.getElementById("num1").value);
         var y =  Number(document.getElementById("num2").value);
@@ -56,4 +52,4 @@ dividirInput.addEventListener('click', dividir);
         document.getElementById("resultado").innerHTML= resultado;
                
     };
-};
+
