@@ -1,3 +1,16 @@
+var sumInput = document.querySelector('#suma');
+sumInput.addEventListener('click', suma);
+
+var restaInput = document.querySelector('#resta');
+restaInput.addEventListener('click', resta);
+
+var multiInput = document.querySelector('#multi');
+multiInput.addEventListener('click', multi);
+
+var dividirInput = document.querySelector('#dividir');
+dividirInput.addEventListener('click', dividir);
+
+
 
                 function suma(){
                     
