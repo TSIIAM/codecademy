@@ -27,7 +27,7 @@ dividirInput.addEventListener('click', dividir);
                     //operar
                     var res = x+y;
                     //asignar resultado
-          var resultado = " Tu resultado es: "+ res;
+          var resultado = " Tu resultado es: "+ res.toFixed(2);
                     // mostrarlo en pantalla
         document.getElementById("resultado").innerHTML= resultado;
                   
@@ -39,7 +39,7 @@ dividirInput.addEventListener('click', dividir);
          var x =  parseInt(document.getElementById("num1").value);
         var y =  parseInt(document.getElementById("num2").value);
                     var res = x-y;
-          var resultado = " Tu resultado es: "+res;
+          var resultado = " Tu resultado es: "+res.toFixed(2);
         document.getElementById("resultado").innerHTML= resultado;
                     
     };
@@ -51,7 +51,7 @@ dividirInput.addEventListener('click', dividir);
            var x =  Number(document.getElementById("num1").value);
         var y =  Number(document.getElementById("num2").value);
                     var res = x * y;
-          var resultado = " Tu resultado es: " + res;
+          var resultado = " Tu resultado es: " + res.toFixed(2);
         document.getElementById("resultado").innerHTML= resultado;
                      
                     
@@ -64,7 +64,7 @@ dividirInput.addEventListener('click', dividir);
        var x =  Number(document.getElementById("num1").value);
         var y =  Number(document.getElementById("num2").value);
                     var res = x / y;
-          var resultado = " Tu resultado es: " + res;
+          var resultado = " Tu resultado es: " + res.toFixed(2);
         document.getElementById("resultado").innerHTML= resultado;
                
     };
