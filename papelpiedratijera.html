@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  
+  <head>
+        <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Papel piedra o tijera!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Junior Web Developers">
+    <meta name="keywords" content="HTML,CSS,JavaScript,jQuery">
+    <meta name="author" content="Alvaro Mesa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.slim.js"
+  integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
+  crossorigin="anonymous"></script>
+  
+  <script src="pps.js"></script>
+  
+    
+    <style>body{background-color:#1b7282}
+
+.juego{
+  border-radius:10px;
+  background-color:white;
+  margin:auto;
+  width:300px;
+  height:200px;
+    box-shadow:2px 2px black;
+}
+#resultado{
+  box-shadow:2px 2px black;
+   border-radius:10px;
+   background-color:white;
+  margin:auto;
+  width:300px;
+  height:300px; 
+}
+.juego .botton{
+  margin-left
+  
+}
+
+
+
+.juego  #tijera{
+  box-shadow:2px 2px black;
+   margin:5px 10px;  
+     }
+.juego  #papel{
+  box-shadow:2px 2px black;
+   margin:5px 10px;  
+  }
+
+.juego  #piedra{
+  box-shadow:2px 2px black;
+  margin:5px 10px;    
+}
+#resultado{color:blue;
+  
+text-align:center;
+}
+
+#resultados{color:blue;
+  font-family:georgia;
+font-weight:bold;
+text-align:center;
+}
+    </style>
+  </head>
+  
+  <body>
+    <div class="juego">
+    <h1> Piedra Papel o Tijera</h1>
+    <div class="botton">
+    <button id='tijera'>Tijera</button>
+   <button id='papel'>papel</button>
+   <button id='piedra'>piedra</button>
+      </div>
+     </div>
+
+   
+    
+    <div id="resultado">
+      <p>Resultado:</p>
+      <p id="resultados"></p>
+      <p id="resultados">Usuario:</p>
+      <p id="usuario"></p>
+      <p id="resultados">PC:</p>
+      <p id="pc"></p>
+    </div>
+      
+  </body>
+  
+</html>
