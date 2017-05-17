@@ -3,7 +3,7 @@ Codecademy exercises here.
 
 
 ## Blink it
-[Blink it](http://alvaromesa.com/codecademy/blink.html.html)
+[Blink it](http://alvaromesa.com/codecademy/blink.html)
 Projecto con html/css/jquery, panel led de colores.
 
 ## Calculadora Simple
