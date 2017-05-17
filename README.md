@@ -25,7 +25,7 @@ Ejercicio con jQuery
 Ejercicio jQuery
 
 ## Papel Piedra y Tijera
-[mi lista](http://alvaromesa.com/codecademy/papelpiedratijera.html)
+[papel piedra y tijera](http://alvaromesa.com/codecademy/papelpiedratijera.html)
 Juego hecho con jQuery.
 
 
